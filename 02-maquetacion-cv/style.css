@@ -1,0 +1,57 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+
+    padding-top: 400px;
+}
+
+.imgfox {
+
+    display: inline;
+       
+}
+
+.explicacion {
+
+    display: inline;
+}
+
+.barra {
+    width: 100%;                     /* La barra ocupa todo el ancho de la página */
+    background-color: #e465c0;       /* Fondo azul */
+    padding: 1px 0;                 /* Espaciado vertical */
+    position: fixed;                 /* Fija la barra al principio de la página */
+    top: 0;                          /* Se coloca en la parte superior */
+    left: 0;                         /* Se ajusta a la izquierda */
+    z-index: 1000;  
+    box-shadow:rgba(0, 0, 0, 0.733)FF;
+}
+
+.menu {
+    list-style: none; /* Quita los estilos de viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinea los elementos horizontalmente */
+    gap: 15px; /* Espacio entre los elementos */
+    float: right;
+}
+
+.menu li {
+    display: inline; /* Asegura que los <li> se alineen en línea */
+}
+
+.menu a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #df39b8;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block; /* Hace que toda el área sea clickeable */
+    transition: color 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu a:hover {
+    color: #007BFF; /* Cambia de color al pasar el mouse */
+}
