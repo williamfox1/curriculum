@@ -174,16 +174,12 @@ h1 {
     color:#b150c7;
     text-align: center;
     display: block;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
+
 
 #correo {
     color: #dc87f6;
     text-align: center;
     display: block;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    
 }
