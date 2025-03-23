@@ -1,13 +1,31 @@
+
+/* Estilos Generales*/
+
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
 
-    padding-top: 120px;
-    background-color: rgb(255, 219, 251);
+    padding-top: 180px;
+    background-color: #ffffff;
 
 }
+
+.titulos {
+    height: 180px;
+}
+
+h1 {
+    text-align: center;
+    color:#e465c0;
+}
+
+.relleno {
+    height: 250px;
+}
+
+/* Estilo del Index */
 
 .contenedor{
     display: flex;
@@ -30,6 +48,7 @@ body {
     
 }
 
+
 .cubo p {
     margin-top: 50px;
     font-size: 22px;
@@ -40,6 +59,77 @@ body {
 .cubo h2 {
     color: #ffffff;
 }
+
+.Caja1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.MasExplicacion {
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+
+.MasExplicacion p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.Dibujo2021 {
+    margin-top: 180px;
+    margin-right: 80px;
+    display: inline-block;
+    align-items: center;
+}
+
+.Dibujo2021 img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Caja2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.Actualmente {
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 180px;
+    
+}
+
+.Actualmente p {
+    font-size: 18px;
+    align-items: flex-start;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.Dibujo2024 {
+    margin-top: 180px;
+    margin-left: 80px;
+    display: inline-block;
+    align-items: center;
+}
+
+.Dibujo2024 img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilos del menu */
 
 .barra {
     width: 100%;                     
@@ -90,10 +180,7 @@ body {
     transform: scale(1.5);
 }
 
-h1 {
-    text-align: center;
-    color:#e465c0;
-}
+/* Estilo pestana curriculum*/
 
 .contenedor2 {
     display: flex;
@@ -120,6 +207,8 @@ h1 {
 .contenedor2 h2{
     color:#ffffff
 }
+
+/* Estilos pestana portafolio*/
 
 .contenedor3 {
     display: flex;
@@ -151,6 +240,8 @@ h1 {
 .portafolio-enlace{
     text-decoration: none;
 }
+
+/* Estilos pestana de contacto */
 
 .contenedor4 {
     display: flex;
